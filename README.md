@@ -12,9 +12,8 @@ What is Athena?
 Amazon Athena is an interactive query service for analyzing data in Amazon S3 using SQL.
 Serverless: No infrastructure to manage, pay only for queries you run.
 
-Prereqisites:
-AWS Account:
-Ensure you have an active AWS account (Free Tier or Paid).
+- Prereqisites:
+AWS Account:Ensure you have an active AWS account (Free Tier or Paid).
 Required Data:
 Download the COVID-19 India dataset.
 
@@ -26,7 +25,6 @@ Create a folder named COVID in the source bucket.
 Upload the downloaded raw_data1.csv file to the COVID folder.
 
 3. Configure Amazon Athena
-
 - Set Up Query Results Location:
 In the Athena Console, go to Settings and configure the destination bucket for query results.
 - Create a Table:
